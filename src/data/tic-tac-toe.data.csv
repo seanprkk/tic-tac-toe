@@ -1,0 +1,959 @@
+top-left-square,top-middle-square,top-right-square,middle-left-square,middle-middle-square,middle-right-square,bottom-left-square,bottom-middle-square,bottom-right-square,Class
+X,X,X,X,O,O,X,O,O,X
+X,X,X,X,O,O,O,X,O,X
+X,X,X,X,O,O,O,O,X,X
+X,X,X,X,O,O,O, , ,X
+X,X,X,X,O,O, ,O, ,X
+X,X,X,X,O,O, , ,O,X
+X,X,X,X,O, ,O,O, ,X
+X,X,X,X,O, ,O, ,O,X
+X,X,X,X,O, , ,O,O,X
+X,X,X,X, ,O,O,O, ,X
+X,X,X,X, ,O,O, ,O,X
+X,X,X,X, ,O, ,O,O,X
+X,X,X,O,X,O,X,O,O,X
+X,X,X,O,X,O,O,X,O,X
+X,X,X,O,X,O,O,O,X,X
+X,X,X,O,X,O,O, , ,X
+X,X,X,O,X,O, ,O, ,X
+X,X,X,O,X,O, , ,O,X
+X,X,X,O,X, ,O,O, ,X
+X,X,X,O,X, ,O, ,O,X
+X,X,X,O,X, , ,O,O,X
+X,X,X,O,O,X,X,O,O,X
+X,X,X,O,O,X,O,X,O,X
+X,X,X,O,O,X,O,O,X,X
+X,X,X,O,O,X,O, , ,X
+X,X,X,O,O,X, ,O, ,X
+X,X,X,O,O,X, , ,O,X
+X,X,X,O,O, ,X,O, ,X
+X,X,X,O,O, ,X, ,O,X
+X,X,X,O,O, ,O,X, ,X
+X,X,X,O,O, ,O, ,X,X
+X,X,X,O,O, , ,X,O,X
+X,X,X,O,O, , ,O,X,X
+X,X,X,O,O, , , , ,X
+X,X,X,O, ,X,O,O, ,X
+X,X,X,O, ,X,O, ,O,X
+X,X,X,O, ,X, ,O,O,X
+X,X,X,O, ,O,X,O, ,X
+X,X,X,O, ,O,X, ,O,X
+X,X,X,O, ,O,O,X, ,X
+X,X,X,O, ,O,O, ,X,X
+X,X,X,O, ,O, ,X,O,X
+X,X,X,O, ,O, ,O,X,X
+X,X,X,O, ,O, , , ,X
+X,X,X,O, , ,X,O,O,X
+X,X,X,O, , ,O,X,O,X
+X,X,X,O, , ,O,O,X,X
+X,X,X,O, , ,O, , ,X
+X,X,X,O, , , ,O, ,X
+X,X,X,O, , , , ,O,X
+X,X,X, ,X,O,O,O, ,X
+X,X,X, ,X,O,O, ,O,X
+X,X,X, ,X,O, ,O,O,X
+X,X,X, ,O,X,O,O, ,X
+X,X,X, ,O,X,O, ,O,X
+X,X,X, ,O,X, ,O,O,X
+X,X,X, ,O,O,X,O, ,X
+X,X,X, ,O,O,X, ,O,X
+X,X,X, ,O,O,O,X, ,X
+X,X,X, ,O,O,O, ,X,X
+X,X,X, ,O,O, ,X,O,X
+X,X,X, ,O,O, ,O,X,X
+X,X,X, ,O,O, , , ,X
+X,X,X, ,O, ,X,O,O,X
+X,X,X, ,O, ,O,X,O,X
+X,X,X, ,O, ,O,O,X,X
+X,X,X, ,O, ,O, , ,X
+X,X,X, ,O, , ,O, ,X
+X,X,X, ,O, , , ,O,X
+X,X,X, , ,O,X,O,O,X
+X,X,X, , ,O,O,X,O,X
+X,X,X, , ,O,O,O,X,X
+X,X,X, , ,O,O, , ,X
+X,X,X, , ,O, ,O, ,X
+X,X,X, , ,O, , ,O,X
+X,X,X, , , ,O,O, ,X
+X,X,X, , , ,O, ,O,X
+X,X,X, , , , ,O,O,X
+X,X,O,X,X,O,O,O,X,X
+X,X,O,X,O,X,X,O,O,X
+X,X,O,X,O,O,X,O,X,X
+X,X,O,X,O,O,X, , ,X
+X,X,O,X,O, ,X,O, ,X
+X,X,O,X,O, ,X, ,O,X
+X,X,O,X, ,O,X,O, ,X
+X,X,O,X, , ,X,O,O,X
+X,X,O,O,X,X,O,X,O,X
+X,X,O,O,X,X,O,O,X,X
+X,X,O,O,X,O,X,O,X,X
+X,X,O,O,X,O,O,X,X,X
+X,X,O,O,X,O, ,X, ,X
+X,X,O,O,X,O, , ,X,X
+X,X,O,O,X, ,O,X, ,X
+X,X,O,O,X, ,O, ,X,X
+X,X,O,O,X, , ,X,O,X
+X,X,O,O,X, , ,O,X,X
+X,X,O, ,X,O,O,X, ,X
+X,X,O, ,X,O,O, ,X,X
+X,X,O, ,X,O, ,O,X,X
+X,X,O, ,X, ,O,X,O,X
+X,X,O, ,X, ,O,O,X,X
+X,X, ,X,O,O,X,O, ,X
+X,X, ,X,O,O,X, ,O,X
+X,X, ,X,O, ,X,O,O,X
+X,X, ,X, ,O,X,O,O,X
+X,X, ,O,X,O,O,X, ,X
+X,X, ,O,X,O,O, ,X,X
+X,X, ,O,X,O, ,X,O,X
+X,X, ,O,X,O, ,O,X,X
+X,X, ,O,X, ,O,X,O,X
+X,X, ,O,X, ,O,O,X,X
+X,X, , ,X,O,O,X,O,X
+X,X, , ,X,O,O,O,X,X
+X,O,X,X,X,O,X,O,O,X
+X,O,X,X,X,O,O,O,X,X
+X,O,X,X,O,O,X,X,O,X
+X,O,X,X,O,O,X, , ,X
+X,O,X,X,O, ,X, ,O,X
+X,O,X,X, ,O,X,O, ,X
+X,O,X,X, ,O,X, ,O,X
+X,O,X,X, , ,X,O,O,X
+X,O,X,O,X,X,X,O,O,X
+X,O,X,O,X,X,O,O,X,X
+X,O,X,O,X,O,X,X,O,X
+X,O,X,O,X,O,X,O,X,X
+X,O,X,O,X,O,X, , ,X
+X,O,X,O,X,O,O,X,X,X
+X,O,X,O,X,O, , ,X,X
+X,O,X,O,X, ,X,O, ,X
+X,O,X,O,X, ,X, ,O,X
+X,O,X,O,X, ,O, ,X,X
+X,O,X,O,X, , ,O,X,X
+X,O,X,O,O,X,O,X,X,X
+X,O,X,O,O,X, , ,X,X
+X,O,X,O, ,X,O, ,X,X
+X,O,X,O, ,X, ,O,X,X
+X,O,X, ,X,O,X,O, ,X
+X,O,X, ,X,O,X, ,O,X
+X,O,X, ,X,O,O, ,X,X
+X,O,X, ,X,O, ,O,X,X
+X,O,X, ,X, ,X,O,O,X
+X,O,X, ,X, ,O,O,X,X
+X,O,X, ,O,X,O, ,X,X
+X,O,X, , ,X,O,O,X,X
+X,O,O,X,X,X,X,O,O,X
+X,O,O,X,X,X,O,X,O,X
+X,O,O,X,X,X,O,O,X,X
+X,O,O,X,X,X,O, , ,X
+X,O,O,X,X,X, ,O, ,X
+X,O,O,X,X,X, , ,O,X
+X,O,O,X,X,O,X,O,X,X
+X,O,O,X,X,O,X, , ,X
+X,O,O,X,X,O,O,X,X,X
+X,O,O,X,X,O, , ,X,X
+X,O,O,X,X, ,X,O, ,X
+X,O,O,X,X, ,X, ,O,X
+X,O,O,X,X, ,O, ,X,X
+X,O,O,X,X, , ,O,X,X
+X,O,O,X,O,X,X,X,O,X
+X,O,O,X,O,X,X, , ,X
+X,O,O,X,O,O,X,X,X,X
+X,O,O,X,O, ,X,X, ,X
+X,O,O,X,O, ,X, ,X,X
+X,O,O,X, ,X,X,O, ,X
+X,O,O,X, ,X,X, ,O,X
+X,O,O,X, ,O,X,X, ,X
+X,O,O,X, ,O,X, ,X,X
+X,O,O,X, , ,X,X,O,X
+X,O,O,X, , ,X,O,X,X
+X,O,O,X, , ,X, , ,X
+X,O,O,O,X,X,X,O,X,X
+X,O,O,O,X,X,O,X,X,X
+X,O,O,O,X,X, , ,X,X
+X,O,O,O,X,O,X,X,X,X
+X,O,O,O,X, ,X, ,X,X
+X,O,O,O,X, , ,X,X,X
+X,O,O,O,O,X,X,X,X,X
+X,O,O,O, , ,X,X,X,X
+X,O,O, ,X,X,O, ,X,X
+X,O,O, ,X,X, ,O,X,X
+X,O,O, ,X,O,X, ,X,X
+X,O,O, ,X,O, ,X,X,X
+X,O,O, ,X, ,X,O,X,X
+X,O,O, ,X, ,O,X,X,X
+X,O,O, ,X, , , ,X,X
+X,O,O, ,O, ,X,X,X,X
+X,O,O, , ,O,X,X,X,X
+X,O, ,X,X,X,O,O, ,X
+X,O, ,X,X,X,O, ,O,X
+X,O, ,X,X,X, ,O,O,X
+X,O, ,X,X,O,X,O, ,X
+X,O, ,X,X,O,X, ,O,X
+X,O, ,X,X,O,O, ,X,X
+X,O, ,X,X,O, ,O,X,X
+X,O, ,X,X, ,X,O,O,X
+X,O, ,X,X, ,O,O,X,X
+X,O, ,X,O,X,X, ,O,X
+X,O, ,X,O,O,X,X, ,X
+X,O, ,X,O,O,X, ,X,X
+X,O, ,X,O, ,X,X,O,X
+X,O, ,X,O, ,X, , ,X
+X,O, ,X, ,X,X,O,O,X
+X,O, ,X, ,O,X,X,O,X
+X,O, ,X, ,O,X,O,X,X
+X,O, ,X, ,O,X, , ,X
+X,O, ,X, , ,X,O, ,X
+X,O, ,X, , ,X, ,O,X
+X,O, ,O,X,X,O, ,X,X
+X,O, ,O,X,X, ,O,X,X
+X,O, ,O,X,O,X, ,X,X
+X,O, ,O,X,O, ,X,X,X
+X,O, ,O,X, ,X,O,X,X
+X,O, ,O,X, ,O,X,X,X
+X,O, ,O,X, , , ,X,X
+X,O, ,O,O, ,X,X,X,X
+X,O, ,O, ,O,X,X,X,X
+X,O, , ,X,X,O,O,X,X
+X,O, , ,X,O,X,O,X,X
+X,O, , ,X,O,O,X,X,X
+X,O, , ,X,O, , ,X,X
+X,O, , ,X, ,O, ,X,X
+X,O, , ,X, , ,O,X,X
+X,O, , ,O,O,X,X,X,X
+X, ,X,X,O,O,X,O, ,X
+X, ,X,X,O,O,X, ,O,X
+X, ,X,X,O, ,X,O,O,X
+X, ,X,X, ,O,X,O,O,X
+X, ,X,O,X,O,X,O, ,X
+X, ,X,O,X,O,X, ,O,X
+X, ,X,O,X,O,O, ,X,X
+X, ,X,O,X,O, ,O,X,X
+X, ,X,O,X, ,X,O,O,X
+X, ,X,O,X, ,O,O,X,X
+X, ,X,O,O,X,O, ,X,X
+X, ,X,O,O,X, ,O,X,X
+X, ,X,O, ,X,O,O,X,X
+X, ,X, ,X,O,X,O,O,X
+X, ,X, ,X,O,O,O,X,X
+X, ,X, ,O,X,O,O,X,X
+X, ,O,X,X,X,O,O, ,X
+X, ,O,X,X,X,O, ,O,X
+X, ,O,X,X,X, ,O,O,X
+X, ,O,X,X,O,X,O, ,X
+X, ,O,X,X,O,O, ,X,X
+X, ,O,X,X,O, ,O,X,X
+X, ,O,X,X, ,X,O,O,X
+X, ,O,X,X, ,O,O,X,X
+X, ,O,X,O,X,X,O, ,X
+X, ,O,X,O,X,X, ,O,X
+X, ,O,X,O,O,X,X, ,X
+X, ,O,X,O,O,X, ,X,X
+X, ,O,X,O, ,X,X,O,X
+X, ,O,X,O, ,X,O,X,X
+X, ,O,X,O, ,X, , ,X
+X, ,O,X, ,X,X,O,O,X
+X, ,O,X, ,O,X,O,X,X
+X, ,O,X, ,O,X, , ,X
+X, ,O,X, , ,X,O, ,X
+X, ,O,X, , ,X, ,O,X
+X, ,O,O,X,X,O, ,X,X
+X, ,O,O,X,X, ,O,X,X
+X, ,O,O,X,O,X, ,X,X
+X, ,O,O,X,O, ,X,X,X
+X, ,O,O,X, ,X,O,X,X
+X, ,O,O,X, ,O,X,X,X
+X, ,O,O,X, , , ,X,X
+X, ,O,O,O, ,X,X,X,X
+X, ,O,O, ,O,X,X,X,X
+X, ,O, ,X,X,O,O,X,X
+X, ,O, ,X,O,X,O,X,X
+X, ,O, ,X,O,O,X,X,X
+X, ,O, ,X,O, , ,X,X
+X, ,O, ,X, ,O, ,X,X
+X, ,O, ,X, , ,O,X,X
+X, ,O, ,O,O,X,X,X,X
+X, , ,X,X,O,X,O,O,X
+X, , ,X,X,O,O,O,X,X
+X, , ,X,O,X,X,O,O,X
+X, , ,X,O,O,X,X,O,X
+X, , ,X,O,O,X,O,X,X
+X, , ,X,O,O,X, , ,X
+X, , ,X,O, ,X,O, ,X
+X, , ,X,O, ,X, ,O,X
+X, , ,X, ,O,X,O, ,X
+X, , ,X, ,O,X, ,O,X
+X, , ,X, , ,X,O,O,X
+X, , ,O,X,X,O,O,X,X
+X, , ,O,X,O,X,O,X,X
+X, , ,O,X,O,O,X,X,X
+X, , ,O,X,O, , ,X,X
+X, , ,O,X, ,O, ,X,X
+X, , ,O,X, , ,O,X,X
+X, , , ,X,O,O, ,X,X
+X, , , ,X,O, ,O,X,X
+X, , , ,X, ,O,O,X,X
+O,X,X,X,X,O,X,O,O,X
+O,X,X,X,X,O,O,X,O,X
+O,X,X,X,O,X,O,O,X,X
+O,X,X,O,X,X,X,O,O,X
+O,X,X,O,X,O,X,X,O,X
+O,X,X,O,X,O,X,O,X,X
+O,X,X,O,X,O,X, , ,X
+O,X,X,O,X,O, ,X, ,X
+O,X,X,O,X, ,X,O, ,X
+O,X,X,O,X, ,X, ,O,X
+O,X,X,O,X, , ,X,O,X
+O,X,X,O,O,X,X,O,X,X
+O,X,X,O,O,X, , ,X,X
+O,X,X,O, ,X, ,O,X,X
+O,X,X, ,X,O,X,O, ,X
+O,X,X, ,X,O,X, ,O,X
+O,X,X, ,X,O,O,X, ,X
+O,X,X, ,X,O, ,X,O,X
+O,X,X, ,X, ,X,O,O,X
+O,X,X, ,X, ,O,X,O,X
+O,X,X, ,O,X,O, ,X,X
+O,X,X, ,O,X, ,O,X,X
+O,X,X, , ,X,O,O,X,X
+O,X,O,X,X,X,X,O,O,X
+O,X,O,X,X,X,O,X,O,X
+O,X,O,X,X,X,O,O,X,X
+O,X,O,X,X,X,O, , ,X
+O,X,O,X,X,X, ,O, ,X
+O,X,O,X,X,X, , ,O,X
+O,X,O,X,X,O,O,X,X,X
+O,X,O,X,X,O, ,X, ,X
+O,X,O,X,X, ,O,X, ,X
+O,X,O,X,X, , ,X,O,X
+O,X,O,X,O,O,X,X,X,X
+O,X,O,O,X,X,X,X,O,X
+O,X,O,O,X,X, ,X, ,X
+O,X,O,O,X,O,X,X,X,X
+O,X,O,O,X, ,X,X, ,X
+O,X,O,O,X, , ,X,X,X
+O,X,O,O,O,X,X,X,X,X
+O,X,O,O, , ,X,X,X,X
+O,X,O, ,X,X,O,X, ,X
+O,X,O, ,X,X, ,X,O,X
+O,X,O, ,X,O,X,X, ,X
+O,X,O, ,X,O, ,X,X,X
+O,X,O, ,X, ,X,X,O,X
+O,X,O, ,X, ,O,X,X,X
+O,X,O, ,X, , ,X, ,X
+O,X,O, ,O, ,X,X,X,X
+O,X,O, , ,O,X,X,X,X
+O,X, ,X,X,X,O,O, ,X
+O,X, ,X,X,X,O, ,O,X
+O,X, ,X,X,X, ,O,O,X
+O,X, ,X,X,O,O,X, ,X
+O,X, ,X,X,O, ,X,O,X
+O,X, ,X,X, ,O,X,O,X
+O,X, ,O,X,X, ,X,O,X
+O,X, ,O,X,O,X,X, ,X
+O,X, ,O,X,O, ,X,X,X
+O,X, ,O,X, ,X,X,O,X
+O,X, ,O,X, , ,X, ,X
+O,X, ,O,O, ,X,X,X,X
+O,X, ,O, ,O,X,X,X,X
+O,X, , ,X,X,O,X,O,X
+O,X, , ,X,O,X,X,O,X
+O,X, , ,X,O,O,X,X,X
+O,X, , ,X,O, ,X, ,X
+O,X, , ,X, ,O,X, ,X
+O,X, , ,X, , ,X,O,X
+O,X, , ,O,O,X,X,X,X
+O,O,X,X,X,X,X,O,O,X
+O,O,X,X,X,X,O,X,O,X
+O,O,X,X,X,X,O,O,X,X
+O,O,X,X,X,X,O, , ,X
+O,O,X,X,X,X, ,O, ,X
+O,O,X,X,X,X, , ,O,X
+O,O,X,X,X,O,X,X,O,X
+O,O,X,X,X,O,X,O,X,X
+O,O,X,X,X,O,X, , ,X
+O,O,X,X,X, ,X,O, ,X
+O,O,X,X,X, ,X, ,O,X
+O,O,X,X,O,X,O,X,X,X
+O,O,X,X,O,X, , ,X,X
+O,O,X,X,O,O,X,X,X,X
+O,O,X,X, ,X,O, ,X,X
+O,O,X,X, ,X, ,O,X,X
+O,O,X,O,X,X,X,X,O,X
+O,O,X,O,X,X,X,O,X,X
+O,O,X,O,X,X,X, , ,X
+O,O,X,O,X,X, , ,X,X
+O,O,X,O,X,O,X,X,X,X
+O,O,X,O,X, ,X,X, ,X
+O,O,X,O,X, ,X, ,X,X
+O,O,X,O,O,X,X,X,X,X
+O,O,X,O, ,X,X, ,X,X
+O,O,X,O, ,X, ,X,X,X
+O,O,X,O, , ,X,X,X,X
+O,O,X, ,X,X,X,O, ,X
+O,O,X, ,X,X,X, ,O,X
+O,O,X, ,X,X,O, ,X,X
+O,O,X, ,X,X, ,O,X,X
+O,O,X, ,X,O,X,X, ,X
+O,O,X, ,X,O,X, ,X,X
+O,O,X, ,X, ,X,X,O,X
+O,O,X, ,X, ,X,O,X,X
+O,O,X, ,X, ,X, , ,X
+O,O,X, ,O,X,X, ,X,X
+O,O,X, ,O,X, ,X,X,X
+O,O,X, ,O, ,X,X,X,X
+O,O,X, , ,X,X,O,X,X
+O,O,X, , ,X,O,X,X,X
+O,O,X, , ,X, , ,X,X
+O,O,X, , ,O,X,X,X,X
+O,O, ,X,X,X,X,O, ,X
+O,O, ,X,X,X,X, ,O,X
+O,O, ,X,X,X,O,X, ,X
+O,O, ,X,X,X,O, ,X,X
+O,O, ,X,X,X, ,X,O,X
+O,O, ,X,X,X, ,O,X,X
+O,O, ,X,X,X, , , ,X
+O,O, ,X,O, ,X,X,X,X
+O,O, ,X, ,O,X,X,X,X
+O,O, ,O,X, ,X,X,X,X
+O,O, ,O, ,X,X,X,X,X
+O,O, , ,X,O,X,X,X,X
+O,O, , ,O,X,X,X,X,X
+O,O, , , , ,X,X,X,X
+O, ,X,X,X,X,O,O, ,X
+O, ,X,X,X,X,O, ,O,X
+O, ,X,X,X,X, ,O,O,X
+O, ,X,X,X,O,X,O, ,X
+O, ,X,X,X,O,X, ,O,X
+O, ,X,X,X, ,X,O,O,X
+O, ,X,X,O,X,O, ,X,X
+O, ,X,X,O,X, ,O,X,X
+O, ,X,X, ,X,O,O,X,X
+O, ,X,O,X,X,X,O, ,X
+O, ,X,O,X,X,X, ,O,X
+O, ,X,O,X,X, ,O,X,X
+O, ,X,O,X,O,X,X, ,X
+O, ,X,O,X,O,X, ,X,X
+O, ,X,O,X, ,X,X,O,X
+O, ,X,O,X, ,X,O,X,X
+O, ,X,O,X, ,X, , ,X
+O, ,X,O,O,X,X, ,X,X
+O, ,X,O,O,X, ,X,X,X
+O, ,X,O,O, ,X,X,X,X
+O, ,X,O, ,X,X,O,X,X
+O, ,X,O, ,X, , ,X,X
+O, ,X,O, ,O,X,X,X,X
+O, ,X, ,X,X,X,O,O,X
+O, ,X, ,X,X,O,O,X,X
+O, ,X, ,X,O,X,X,O,X
+O, ,X, ,X,O,X,O,X,X
+O, ,X, ,X,O,X, , ,X
+O, ,X, ,X, ,X,O, ,X
+O, ,X, ,X, ,X, ,O,X
+O, ,X, ,O,X,X,O,X,X
+O, ,X, ,O,X,O,X,X,X
+O, ,X, ,O,X, , ,X,X
+O, ,X, ,O,O,X,X,X,X
+O, ,X, , ,X,O, ,X,X
+O, ,X, , ,X, ,O,X,X
+O, ,O,X,X,X,X,O, ,X
+O, ,O,X,X,X,X, ,O,X
+O, ,O,X,X,X,O,X, ,X
+O, ,O,X,X,X,O, ,X,X
+O, ,O,X,X,X, ,X,O,X
+O, ,O,X,X,X, ,O,X,X
+O, ,O,X,X,X, , , ,X
+O, ,O,X,O, ,X,X,X,X
+O, ,O,X, ,O,X,X,X,X
+O, ,O,O,X, ,X,X,X,X
+O, ,O,O, ,X,X,X,X,X
+O, ,O, ,X,O,X,X,X,X
+O, ,O, ,O,X,X,X,X,X
+O, ,O, , , ,X,X,X,X
+O, , ,X,X,X,X,O,O,X
+O, , ,X,X,X,O,X,O,X
+O, , ,X,X,X,O,O,X,X
+O, , ,X,X,X,O, , ,X
+O, , ,X,X,X, ,O, ,X
+O, , ,X,X,X, , ,O,X
+O, , ,X,O,O,X,X,X,X
+O, , ,O,X,O,X,X,X,X
+O, , ,O,O,X,X,X,X,X
+O, , ,O, , ,X,X,X,X
+O, , , ,O, ,X,X,X,X
+O, , , , ,O,X,X,X,X
+ ,X,X,O,X,O,X,O, ,X
+ ,X,X,O,X,O,X, ,O,X
+ ,X,X,O,X,O,O,X, ,X
+ ,X,X,O,X,O, ,X,O,X
+ ,X,X,O,X, ,X,O,O,X
+ ,X,X,O,X, ,O,X,O,X
+ ,X,X,O,O,X,O, ,X,X
+ ,X,X,O,O,X, ,O,X,X
+ ,X,X,O, ,X,O,O,X,X
+ ,X,X, ,X,O,X,O,O,X
+ ,X,X, ,X,O,O,X,O,X
+ ,X,X, ,O,X,O,O,X,X
+ ,X,O,X,X,X,O,O, ,X
+ ,X,O,X,X,X,O, ,O,X
+ ,X,O,X,X,X, ,O,O,X
+ ,X,O,X,X,O,O,X, ,X
+ ,X,O,X,X, ,O,X,O,X
+ ,X,O,O,X,X,O,X, ,X
+ ,X,O,O,X,X, ,X,O,X
+ ,X,O,O,X,O,X,X, ,X
+ ,X,O,O,X,O, ,X,X,X
+ ,X,O,O,X, ,X,X,O,X
+ ,X,O,O,X, ,O,X,X,X
+ ,X,O,O,X, , ,X, ,X
+ ,X,O,O,O, ,X,X,X,X
+ ,X,O,O, ,O,X,X,X,X
+ ,X,O, ,X,X,O,X,O,X
+ ,X,O, ,X,O,O,X,X,X
+ ,X,O, ,X,O, ,X, ,X
+ ,X,O, ,X, ,O,X, ,X
+ ,X,O, ,X, , ,X,O,X
+ ,X,O, ,O,O,X,X,X,X
+ ,X, ,X,X,O,O,X,O,X
+ ,X, ,O,X,X,O,X,O,X
+ ,X, ,O,X,O,X,X,O,X
+ ,X, ,O,X,O,O,X,X,X
+ ,X, ,O,X,O, ,X, ,X
+ ,X, ,O,X, ,O,X, ,X
+ ,X, ,O,X, , ,X,O,X
+ ,X, , ,X,O,O,X, ,X
+ ,X, , ,X,O, ,X,O,X
+ ,X, , ,X, ,O,X,O,X
+ ,O,X,X,X,X,O,O, ,X
+ ,O,X,X,X,X,O, ,O,X
+ ,O,X,X,X,X, ,O,O,X
+ ,O,X,X,X,O,X,O, ,X
+ ,O,X,X,X,O,X, ,O,X
+ ,O,X,X,X, ,X,O,O,X
+ ,O,X,X,O,X,O, ,X,X
+ ,O,X,X, ,X,O,O,X,X
+ ,O,X,O,X,X,X,O, ,X
+ ,O,X,O,X,X,X, ,O,X
+ ,O,X,O,X,X,O, ,X,X
+ ,O,X,O,X,X, ,O,X,X
+ ,O,X,O,X,O,X,X, ,X
+ ,O,X,O,X,O,X, ,X,X
+ ,O,X,O,X, ,X,X,O,X
+ ,O,X,O,X, ,X,O,X,X
+ ,O,X,O,X, ,X, , ,X
+ ,O,X,O,O,X,X, ,X,X
+ ,O,X,O,O,X, ,X,X,X
+ ,O,X,O,O, ,X,X,X,X
+ ,O,X,O, ,X,X,O,X,X
+ ,O,X,O, ,X,O,X,X,X
+ ,O,X,O, ,X, , ,X,X
+ ,O,X,O, ,O,X,X,X,X
+ ,O,X, ,X,X,X,O,O,X
+ ,O,X, ,X,X,O,O,X,X
+ ,O,X, ,X,O,X,X,O,X
+ ,O,X, ,X,O,X,O,X,X
+ ,O,X, ,X,O,X, , ,X
+ ,O,X, ,X, ,X,O, ,X
+ ,O,X, ,X, ,X, ,O,X
+ ,O,X, ,O,X,O,X,X,X
+ ,O,X, ,O,X, , ,X,X
+ ,O,X, ,O,O,X,X,X,X
+ ,O,X, , ,X,O, ,X,X
+ ,O,X, , ,X, ,O,X,X
+ ,O,O,X,X,X,X,O, ,X
+ ,O,O,X,X,X,X, ,O,X
+ ,O,O,X,X,X,O,X, ,X
+ ,O,O,X,X,X,O, ,X,X
+ ,O,O,X,X,X, ,X,O,X
+ ,O,O,X,X,X, ,O,X,X
+ ,O,O,X,X,X, , , ,X
+ ,O,O,X,O, ,X,X,X,X
+ ,O,O,X, ,O,X,X,X,X
+ ,O,O,O,X, ,X,X,X,X
+ ,O,O,O, ,X,X,X,X,X
+ ,O,O, ,X,O,X,X,X,X
+ ,O,O, ,O,X,X,X,X,X
+ ,O,O, , , ,X,X,X,X
+ ,O, ,X,X,X,X,O,O,X
+ ,O, ,X,X,X,O,X,O,X
+ ,O, ,X,X,X,O,O,X,X
+ ,O, ,X,X,X,O, , ,X
+ ,O, ,X,X,X, ,O, ,X
+ ,O, ,X,X,X, , ,O,X
+ ,O, ,X,O,O,X,X,X,X
+ ,O, ,O,X,O,X,X,X,X
+ ,O, ,O,O,X,X,X,X,X
+ ,O, ,O, , ,X,X,X,X
+ ,O, , ,O, ,X,X,X,X
+ ,O, , , ,O,X,X,X,X
+ , ,X,X,X,O,X,O,O,X
+ , ,X,X,O,X,O,O,X,X
+ , ,X,O,X,X,X,O,O,X
+ , ,X,O,X,X,O,O,X,X
+ , ,X,O,X,O,X,X,O,X
+ , ,X,O,X,O,X,O,X,X
+ , ,X,O,X,O,X, , ,X
+ , ,X,O,X, ,X,O, ,X
+ , ,X,O,X, ,X, ,O,X
+ , ,X,O,O,X,X,O,X,X
+ , ,X,O,O,X,O,X,X,X
+ , ,X,O,O,X, , ,X,X
+ , ,X,O, ,X,O, ,X,X
+ , ,X,O, ,X, ,O,X,X
+ , ,X, ,X,O,X,O, ,X
+ , ,X, ,X,O,X, ,O,X
+ , ,X, ,X, ,X,O,O,X
+ , ,X, ,O,X,O, ,X,X
+ , ,X, ,O,X, ,O,X,X
+ , ,X, , ,X,O,O,X,X
+ , ,O,X,X,X,X,O,O,X
+ , ,O,X,X,X,O,X,O,X
+ , ,O,X,X,X,O,O,X,X
+ , ,O,X,X,X,O, , ,X
+ , ,O,X,X,X, ,O, ,X
+ , ,O,X,X,X, , ,O,X
+ , ,O,X,O,O,X,X,X,X
+ , ,O,O,X,O,X,X,X,X
+ , ,O,O,O,X,X,X,X,X
+ , ,O,O, , ,X,X,X,X
+ , ,O, ,O, ,X,X,X,X
+ , ,O, , ,O,X,X,X,X
+ , , ,X,X,X,O,O, ,X
+ , , ,X,X,X,O, ,O,X
+ , , ,X,X,X, ,O,O,X
+ , , ,O,O, ,X,X,X,X
+ , , ,O, ,O,X,X,X,X
+ , , , ,O,O,X,X,X,X
+X,X,O,X,X,O,O, ,O,O
+X,X,O,X,X,O, ,O,O,O
+X,X,O,X,X, ,O,O,O,O
+X,X,O,X,O,X,O,O, ,O
+X,X,O,X,O,X,O, ,O,O
+X,X,O,X,O,O,O,X, ,O
+X,X,O,X,O,O,O, ,X,O
+X,X,O,X,O,O, ,X,O,O
+X,X,O,X,O, ,O,X,O,O
+X,X,O,X,O, ,O,O,X,O
+X,X,O,X,O, ,O, , ,O
+X,X,O,X, ,X,O,O,O,O
+X,X,O,X, ,O,O,X,O,O
+X,X,O,X, ,O, , ,O,O
+X,X,O,O,X,O,X, ,O,O
+X,X,O,O,O,X,O,X, ,O
+X,X,O,O,O,X,O, ,X,O
+X,X,O,O,O,O,X,X, ,O
+X,X,O,O,O,O,X, ,X,O
+X,X,O,O,O,O, ,X,X,O
+X,X,O,O,O, ,O,X,X,O
+X,X,O,O, ,O,X,X,O,O
+X,X,O, ,X,X,O,O,O,O
+X,X,O, ,X,O,X,O,O,O
+X,X,O, ,X,O, , ,O,O
+X,X,O, ,O,X,O,X,O,O
+X,X,O, ,O,X,O,O,X,O
+X,X,O, ,O,X,O, , ,O
+X,X,O, ,O,O,X,X,O,O
+X,X,O, ,O,O,O,X,X,O
+X,X,O, ,O, ,O,X, ,O
+X,X,O, ,O, ,O, ,X,O
+X,X,O, , ,O,X, ,O,O
+X,X,O, , ,O, ,X,O,O
+X,X, ,X,X,O,O,O,O,O
+X,X, ,X,O,X,O,O,O,O
+X,X, ,X, , ,O,O,O,O
+X,X, ,O,X,X,O,O,O,O
+X,X, ,O,O,O,X,X,O,O
+X,X, ,O,O,O,X,O,X,O
+X,X, ,O,O,O,X, , ,O
+X,X, ,O,O,O,O,X,X,O
+X,X, ,O,O,O, ,X, ,O
+X,X, ,O,O,O, , ,X,O
+X,X, , ,X, ,O,O,O,O
+X,X, , , ,X,O,O,O,O
+X,O,X,X,X, ,O,O,O,O
+X,O,X,X,O,X,O,O, ,O
+X,O,X,X,O,X, ,O,O,O
+X,O,X,X,O,O, ,O,X,O
+X,O,X,X,O, ,O,O,X,O
+X,O,X,X,O, , ,O, ,O
+X,O,X,X, ,X,O,O,O,O
+X,O,X,O,O,X,X,O, ,O
+X,O,X,O,O,O,X,X, ,O
+X,O,X,O,O,O,X, ,X,O
+X,O,X,O,O,O, ,X,X,O
+X,O,X,O,O, ,X,O,X,O
+X,O,X, ,X,X,O,O,O,O
+X,O,X, ,O,X,X,O,O,O
+X,O,X, ,O,X, ,O, ,O
+X,O,X, ,O,O,X,O,X,O
+X,O,X, ,O, ,X,O, ,O
+X,O,X, ,O, , ,O,X,O
+X,O,O,X,X,O, ,X,O,O
+X,O,O,X,O,X,O,X, ,O
+X,O,O,X,O,X,O, ,X,O
+X,O,O,X,O,X, ,O,X,O
+X,O,O,X,O, ,O,X,X,O
+X,O,O, ,X,O,X,X,O,O
+X,O,O, ,O,X,X,O,X,O
+X,O,O, ,O,X,O,X,X,O
+X,O, ,X,O,X,O,O,X,O
+X,O, ,X,O,X, ,O, ,O
+X,O, ,X,O, , ,O,X,O
+X,O, ,O,O,X,X,O,X,O
+X,O, , ,O,X,X,O, ,O
+X,O, , ,O,X, ,O,X,O
+X,O, , ,O, ,X,O,X,O
+X, ,X,X,X,O,O,O,O,O
+X, ,X,X,O,X,O,O,O,O
+X, ,X,X, , ,O,O,O,O
+X, ,X,O,X,X,O,O,O,O
+X, ,X,O,O,O,X,X,O,O
+X, ,X,O,O,O,X,O,X,O
+X, ,X,O,O,O,X, , ,O
+X, ,X,O,O,O,O,X,X,O
+X, ,X,O,O,O, ,X, ,O
+X, ,X,O,O,O, , ,X,O
+X, ,X, ,X, ,O,O,O,O
+X, ,X, , ,X,O,O,O,O
+X, ,O,X,X,O,O,X,O,O
+X, ,O,X,X,O, , ,O,O
+X, ,O,X,O,X,O,X,O,O
+X, ,O,X,O,X,O,O,X,O
+X, ,O,X,O,X,O, , ,O
+X, ,O,X,O,O,O,X,X,O
+X, ,O,X,O, ,O,X, ,O
+X, ,O,X,O, ,O, ,X,O
+X, ,O,X, ,O, ,X,O,O
+X, ,O,O,X,O,X,X,O,O
+X, ,O,O,O,X,O,X,X,O
+X, ,O, ,X,O,X, ,O,O
+X, ,O, ,X,O, ,X,O,O
+X, ,O, ,O,X,O,X, ,O
+X, ,O, ,O,X,O, ,X,O
+X, ,O, ,O, ,O,X,X,O
+X, ,O, , ,O,X,X,O,O
+X, , ,X,X, ,O,O,O,O
+X, , ,X, ,X,O,O,O,O
+X, , ,O,O,O,X,X, ,O
+X, , ,O,O,O,X, ,X,O
+X, , ,O,O,O, ,X,X,O
+X, , , ,X,X,O,O,O,O
+O,X,X,X,X, ,O,O,O,O
+O,X,X,X,O,X,O, ,O,O
+O,X,X,X,O,X, ,O,O,O
+O,X,X,X,O,O,X, ,O,O
+O,X,X,X,O,O, ,X,O,O
+O,X,X,X,O, ,X,O,O,O
+O,X,X,X,O, ,O,X,O,O
+O,X,X,X,O, , , ,O,O
+O,X,X,X, ,X,O,O,O,O
+O,X,X,O,X,X,O,O, ,O
+O,X,X,O,X,X,O, ,O,O
+O,X,X,O,X,O,O, ,X,O
+O,X,X,O,X, ,O,O,X,O
+O,X,X,O,X, ,O, , ,O
+O,X,X,O,O,X,X, ,O,O
+O,X,X,O,O,X,O,X, ,O
+O,X,X,O,O,X, ,X,O,O
+O,X,X,O,O,O,X,X, ,O
+O,X,X,O,O,O,X, ,X,O
+O,X,X,O,O,O, ,X,X,O
+O,X,X,O,O, ,X,X,O,O
+O,X,X,O,O, ,O,X,X,O
+O,X,X,O, ,X,O,X,O,O
+O,X,X,O, ,X,O, , ,O
+O,X,X,O, ,O,O,X,X,O
+O,X,X,O, , ,O,X, ,O
+O,X,X,O, , ,O, ,X,O
+O,X,X, ,X,X,O,O,O,O
+O,X,X, ,O,X,X,O,O,O
+O,X,X, ,O,X,O,X,O,O
+O,X,X, ,O,X, , ,O,O
+O,X,X, ,O,O,X,X,O,O
+O,X,X, ,O, ,X, ,O,O
+O,X,X, ,O, , ,X,O,O
+O,X,O,X,X,O,X, ,O,O
+O,X,O,X,O,X,X, ,O,O
+O,X,O,X,O,X,O,X, ,O
+O,X,O,X,O,X,O, ,X,O
+O,X,O,X,O,X, ,X,O,O
+O,X,O,X,O, ,X,X,O,O
+O,X,O,X,O, ,O,X,X,O
+O,X,O,X, ,O,X,X,O,O
+O,X,O,O,X,X,O, ,X,O
+O,X,O,O, ,X,O,X,X,O
+O,X,O, ,O,X,X,X,O,O
+O,X,O, ,O,X,O,X,X,O
+O,X, ,X,O,X,X,O,O,O
+O,X, ,X,O,X,O,X,O,O
+O,X, ,X,O,X, , ,O,O
+O,X, ,X,O,O,X,X,O,O
+O,X, ,X,O, ,X, ,O,O
+O,X, ,X,O, , ,X,O,O
+O,X, ,O,X,X,O,O,X,O
+O,X, ,O,X,X,O, , ,O
+O,X, ,O,X, ,O, ,X,O
+O,X, ,O,O,X,X,X,O,O
+O,X, ,O,O,X,O,X,X,O
+O,X, ,O, ,X,O,X, ,O
+O,X, ,O, ,X,O, ,X,O
+O,X, ,O, , ,O,X,X,O
+O,X, , ,O,X,X, ,O,O
+O,X, , ,O,X, ,X,O,O
+O,X, , ,O, ,X,X,O,O
+O,O,X,X,O,X,X,O, ,O
+O,O,X,X,O,X,X, ,O,O
+O,O,X,X,O,X, ,X,O,O
+O,O,X,X,O, ,X,X,O,O
+O,O,X,X,O, ,X,O,X,O
+O,O,X,O,X,X,O,X, ,O
+O,O,X,O,X, ,O,X,X,O
+O,O,X, ,O,X,X,X,O,O
+O,O,O,X,X,O,X,X, ,O
+O,O,O,X,X,O,X, ,X,O
+O,O,O,X,X,O, ,X,X,O
+O,O,O,X,X, ,X,X,O,O
+O,O,O,X,X, ,X,O,X,O
+O,O,O,X,X, ,X, , ,O
+O,O,O,X,X, ,O,X,X,O
+O,O,O,X,X, , ,X, ,O
+O,O,O,X,X, , , ,X,O
+O,O,O,X,O,X,X,X, ,O
+O,O,O,X,O,X,X, ,X,O
+O,O,O,X,O,X, ,X,X,O
+O,O,O,X, ,X,X,X,O,O
+O,O,O,X, ,X,X,O,X,O
+O,O,O,X, ,X,X, , ,O
+O,O,O,X, ,X,O,X,X,O
+O,O,O,X, ,X, ,X, ,O
+O,O,O,X, ,X, , ,X,O
+O,O,O,X, , ,X,X, ,O
+O,O,O,X, , ,X, ,X,O
+O,O,O,X, , , ,X,X,O
+O,O,O,O,X,X,X,X, ,O
+O,O,O,O,X,X,X, ,X,O
+O,O,O,O,X,X, ,X,X,O
+O,O,O, ,X,X,X,X,O,O
+O,O,O, ,X,X,X,O,X,O
+O,O,O, ,X,X,X, , ,O
+O,O,O, ,X,X,O,X,X,O
+O,O,O, ,X,X, ,X, ,O
+O,O,O, ,X,X, , ,X,O
+O,O,O, ,X, ,X,X, ,O
+O,O,O, ,X, ,X, ,X,O
+O,O,O, ,X, , ,X,X,O
+O,O,O, , ,X,X,X, ,O
+O,O,O, , ,X,X, ,X,O
+O,O,O, , ,X, ,X,X,O
+O,O, ,X,O,X,X,X,O,O
+O,O, ,X,O,X,X,O,X,O
+O,O, ,O,X,X,O,X,X,O
+O, ,X,X,O,X,X,O,O,O
+O, ,X,X,O,X,O,X,O,O
+O, ,X,X,O,X, , ,O,O
+O, ,X,X,O,O,X,X,O,O
+O, ,X,X,O, ,X, ,O,O
+O, ,X,X,O, , ,X,O,O
+O, ,X,O,X,X,O,X,O,O
+O, ,X,O,X,X,O, , ,O
+O, ,X,O,X,O,O,X,X,O
+O, ,X,O,X, ,O,X, ,O
+O, ,X,O,X, ,O, ,X,O
+O, ,X,O,O,X,X,X,O,O
+O, ,X,O, ,X,O,X, ,O
+O, ,X,O, , ,O,X,X,O
+O, ,X, ,O,X,X, ,O,O
+O, ,X, ,O,X, ,X,O,O
+O, ,X, ,O, ,X,X,O,O
+O, ,O,X,X,O,X,X,O,O
+O, ,O,X,O,X,X,X,O,O
+O, ,O,X,O,X,O,X,X,O
+O, ,O,O,X,X,O,X,X,O
+O, , ,X,O,X,X, ,O,O
+O, , ,X,O,X, ,X,O,O
+O, , ,X,O, ,X,X,O,O
+O, , ,O,X,X,O,X, ,O
+O, , ,O,X,X,O, ,X,O
+O, , ,O,X, ,O,X,X,O
+O, , ,O, ,X,O,X,X,O
+O, , , ,O,X,X,X,O,O
+ ,X,X,X,X,O,O,O,O,O
+ ,X,X,X,O,X,O,O,O,O
+ ,X,X,X, , ,O,O,O,O
+ ,X,X,O,X,X,O,O,O,O
+ ,X,X,O,O,O,X,X,O,O
+ ,X,X,O,O,O,X,O,X,O
+ ,X,X,O,O,O,X, , ,O
+ ,X,X,O,O,O,O,X,X,O
+ ,X,X,O,O,O, ,X, ,O
+ ,X,X,O,O,O, , ,X,O
+ ,X,X, ,X, ,O,O,O,O
+ ,X,X, , ,X,O,O,O,O
+ ,X,O,X,X,O,X,O,O,O
+ ,X,O,X,X,O, , ,O,O
+ ,X,O,X,O,X,O,X,O,O
+ ,X,O,X,O,X,O,O,X,O
+ ,X,O,X,O,X,O, , ,O
+ ,X,O,X,O,O,X,X,O,O
+ ,X,O,X,O,O,O,X,X,O
+ ,X,O,X,O, ,O,X, ,O
+ ,X,O,X,O, ,O, ,X,O
+ ,X,O,X, ,O,X, ,O,O
+ ,X,O,X, ,O, ,X,O,O
+ ,X,O,O,O,X,O,X,X,O
+ ,X,O, ,X,O,X, ,O,O
+ ,X,O, ,O,X,O,X, ,O
+ ,X,O, ,O,X,O, ,X,O
+ ,X,O, ,O, ,O,X,X,O
+ ,X,O, , ,O,X,X,O,O
+ ,X, ,X,X, ,O,O,O,O
+ ,X, ,X, ,X,O,O,O,O
+ ,X, ,O,O,O,X,X, ,O
+ ,X, ,O,O,O,X, ,X,O
+ ,X, ,O,O,O, ,X,X,O
+ ,X, , ,X,X,O,O,O,O
+ ,O,X,X,O,X,X,O,O,O
+ ,O,X,X,O,X, ,O, ,O
+ ,O,X,X,O,O,X,O,X,O
+ ,O,X,X,O, ,X,O, ,O
+ ,O,X,X,O, , ,O,X,O
+ ,O,X, ,O,X,X,O, ,O
+ ,O,X, ,O, ,X,O,X,O
+ ,O,O,X,X,O,X,X,O,O
+ ,O,O,X,O,X,X,O,X,O
+ ,O,O,X,O,X,O,X,X,O
+ ,O, ,X,O,X,X,O, ,O
+ ,O, ,X,O,X, ,O,X,O
+ ,O, ,X,O, ,X,O,X,O
+ ,O, , ,O,X,X,O,X,O
+ , ,X,X,X, ,O,O,O,O
+ , ,X,X, ,X,O,O,O,O
+ , ,X,O,O,O,X,X, ,O
+ , ,X,O,O,O,X, ,X,O
+ , ,X,O,O,O, ,X,X,O
+ , ,X, ,X,X,O,O,O,O
+ , ,O,X,X,O,X, ,O,O
+ , ,O,X,X,O, ,X,O,O
+ , ,O,X,O,X,O,X, ,O
+ , ,O,X,O,X,O, ,X,O
+ , ,O,X,O, ,O,X,X,O
+ , ,O,X, ,O,X,X,O,O
+ , ,O, ,X,O,X,X,O,O
+ , ,O, ,O,X,O,X,X,O
+X,X,O,O,X,X,X,O,O,O
+X,X,O,O,O,X,X,X,O,O
+X,X,O,O,O,X,X,O,X,O
+X,O,X,X,X,O,O,X,O,O
+X,O,X,X,O,X,O,X,O,O
+X,O,X,X,O,O,O,X,X,O
+X,O,X,O,X,X,O,X,O,O
+X,O,X,O,O,X,X,X,O,O
+X,O,O,O,X,X,X,X,O,O
+O,X,X,X,X,O,O,O,X,O
+O,X,X,X,O,O,X,O,X,O
+O,X,X,X,O,O,O,X,X,O
+O,X,O,X,X,O,X,O,X,O
+O,X,O,X,O,X,X,O,X,O
+O,X,O,O,X,X,X,O,X,O
+O,O,X,X,X,O,O,X,X,O

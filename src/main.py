@@ -1,7 +1,11 @@
-import pygame
+"""
+This file handles and runs the tic-tac-toe game.
+"""
+
 import sys
-import random
-from ai_player import AIPlayer
+import pygame
+
+from src.ai_player import AIPlayer
 
 
 # Constants
@@ -24,9 +28,10 @@ pygame.display.set_caption("Tic-Tac-Toe")
 # Define player / computer
 player_icon = "O"
 computer_icon = "X"
+blank_icon = " "
 
 # Game board
-board = [[" " for _ in range(BOARD_COLS)] for _ in range(BOARD_ROWS)]
+board = [[blank_icon for _ in range(BOARD_COLS)] for _ in range(BOARD_ROWS)]
 
 #Previous paths
 #Each path format: [[first move],[second mvoe]]
@@ -75,60 +80,34 @@ def check_winner(player):
 
 # Function to check for a draw
 def check_draw():
-    return all([cell != " " for row in board for cell in row])
-
-# Function for the computer to make a move
-def computer_move():
-    for row in range(BOARD_ROWS):
-        for col in range(BOARD_COLS):
-            if board[row][col] == " ":
-                return row, col
-
-    # best_row = 0
-    # best_col = 0
-    # best_win_rate = -1
-    # for row in range(BOARD_ROWS):
-    #     for col in range(BOARD_COLS):
-    #         if board[row][col] == " ":
-    #             this_win_rate = get_win_rate(row,col)
-    #             if this_win_rate > best_win_rate:
-
+    return all([cell != blank_icon for row in board for cell in row])
 
 def reset_board():
     for row in range(BOARD_ROWS):
         for col in range(BOARD_COLS):
-            board[row][col] = " "
+            board[row][col] = blank_icon
 
 # Main game loop
 def main():
 
     player_turn = True  # True for player, False for computer
-    possible_paths = record
-    possible_results = results
-    current_path = []
+    current_path = []   # [(pos,icon)] => ex. [((1,2),"O"),((0,2),"X")]
 
-    def filter_paths():
-        for path in possible_paths:
-            #find paths that follow current path
-            if len(path) < len(current_path) or path[:len(current_path)] != current_path:
-                possible_paths.remove(path)
+    comp_player = AIPlayer(computer_icon)
 
     def update_box(player, row, col):
         board[row][col] = player
-        current_path.append([row,col])
-        filter_paths()
-        print(current_path)
+        current_path.append(((row,col),player))
 
-    def end_round(cp_point): 
+    def end_round(result): 
         # cp_point: 1 if comp wins, -1 if player wins, 0 if draw
-        if (cp_point == 1):
-            print("Computer wins.")
-        elif (cp_point == 0):
+        if (result == blank_icon):
             print("Draw.")
-        else:
+        elif (result == player_icon):
             print("Player wins.")
-        record.append(current_path)
-        results.append(cp_point)
+        else:
+            print("Computer wins.")
+        comp_player.update_data()
         reset_board()
         main()
 
@@ -149,21 +128,21 @@ def main():
                 clicked_row = mouseY // SQUARE_SIZE
                 clicked_col = mouseX // SQUARE_SIZE
 
-                if board[clicked_row][clicked_col] == " ":
+                if board[clicked_row][clicked_col] == blank_icon:
                     update_box(player_icon,clicked_row,clicked_col)
                     if check_winner(player_icon):
-                        end_round(-1)
+                        end_round(player_icon)
                     player_turn = False
 
             if not player_turn:
-                picked_row, picked_col = computer_move() 
+                (picked_row, picked_col) = comp_player.choose_pos(current_path) 
                 update_box(computer_icon,picked_row,picked_col)
                 if check_winner(computer_icon):
-                    end_round(1)
+                    end_round(computer_icon)
                 player_turn = True
 
         if check_draw():
-            end_round(0)
+            end_round(blank_icon)
 
         pygame.display.update()
 
