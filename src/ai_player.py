@@ -23,18 +23,20 @@ class AIPlayer:
         for col in self.prev_games.columns:
             self.prev_games[col] = self.prev_games[col].map(icon_map)
 
-    def get_cond_win_rate(self, current_path, pos):
+    def get_cond_win_rate(self, current_path, this_pos):
         x = self.prev_games
         for path in current_path:
             row = path[0][0]
             col = path[0][1]
             icon = path[1]
             x = x[x[pos[row][col]] == icon]
-        x = x[x[pos[row][col]] == self.icon]
+        x = x[x[pos[this_pos[0]][this_pos[1]]] == self.icon]
         return np.mean(x['Class'] == self.icon)
 
+
+    # TODO: some game instances not trained; needs to try new paths (infrequent) before securing win.
     def choose_pos(self, current_path):
-        best_prob = -1
+        best_prob = 0
         for row in range(3):
             for col in range(3):
                 pos = (row,col)
@@ -42,16 +44,23 @@ class AIPlayer:
                 if (prob > best_prob):
                     best_pos = pos
                     best_prob = prob
+                    print(best_pos, best_prob)
         return best_pos
-    
-    def update_data(self,path):
-        new_data = [] #continue here
+
+    def add_game(self,path,blank_icon,winner):
+        new_game = {} #continue here
         for p in path:
             row = p[0][0]
             col = p[0][1]
             icon = p[1]
-
-        self.prev_games.loc[len(self.prev_games)]
+        for row in range(3):
+            for col in range(3):
+                if pos[row][col] not in new_game.keys():
+                    new_game[pos[row][col]] = blank_icon
+        new_game['Class'] = winner
+        self.prev_games.loc[len(self.prev_games)] = new_game
+    
+    def store_data(self):
         self.prev_games.to_csv(data,index=False)
         print("Game record saved to: " + data)
     

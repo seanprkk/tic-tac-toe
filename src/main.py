@@ -5,7 +5,7 @@ This file handles and runs the tic-tac-toe game.
 import sys
 import pygame
 
-from src.ai_player import AIPlayer
+from ai_player import AIPlayer
 
 
 # Constants
@@ -107,7 +107,7 @@ def main():
             print("Player wins.")
         else:
             print("Computer wins.")
-        comp_player.update_data()
+        comp_player.add_game(current_path,blank_icon,result)
         reset_board()
         main()
 
@@ -118,6 +118,7 @@ def main():
 
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
+                #comp_player.store_data()
                 pygame.quit()
                 sys.exit()
 
